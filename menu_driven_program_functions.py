@@ -21,7 +21,7 @@ def check_even_odd(number: int) -> str:
         number (int): The number to check.
     
     Returns:
-        str: A message indicating whether the number is even or odd.
+        str: A message indicating whether the number is even or odd.  
     """
     if number % 2 == 0:
         return f"{number} is an Even number."
